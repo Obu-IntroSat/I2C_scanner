@@ -2,9 +2,9 @@
 #include <IS_Bluetooth.h>
 
 void setup(){
-
+  delay(500);
   Wire.begin();
-
+  delay(500);
   Serial.begin(115200, SERIAL_8E1);
   Serial.println("\nI2C Scanner");
 
